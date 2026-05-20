@@ -18,6 +18,8 @@ tags:
   - Medical Devices
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hospira
   - type: Website
     url: https://www.hospira.com
   - type: Parent
