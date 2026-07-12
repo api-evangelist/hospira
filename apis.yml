@@ -18,6 +18,8 @@ tags:
   - Medical Devices
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/hospira-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/hospira
   - type: Website
