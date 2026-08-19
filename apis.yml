@@ -22,7 +22,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/hospira/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-04-28'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 tags:
   - Healthcare
   - Pharmaceuticals
