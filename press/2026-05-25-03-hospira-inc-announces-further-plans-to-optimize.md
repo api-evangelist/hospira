@@ -1,7 +1,9 @@
 ---
 title: Hospira, Inc. Announces Further Plans To Optimize ...
 url: https://www.biospace.com/hospira-inc-announces-further-plans-to-optimize-manufacturing-operations-cutting-1-100-jobs
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hospira" press release artificial intelligence'
 position: 3
 source: serpapi-google

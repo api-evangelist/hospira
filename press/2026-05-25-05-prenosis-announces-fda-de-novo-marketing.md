@@ -1,7 +1,9 @@
 ---
 title: Prenosis Announces FDA De Novo Marketing ...
 url: https://prenosis.com/news/prenosis-announces-fda-de-novo-marketing-authorization-of-immunoscore/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hospira" press release artificial intelligence'
 position: 5
 source: serpapi-google

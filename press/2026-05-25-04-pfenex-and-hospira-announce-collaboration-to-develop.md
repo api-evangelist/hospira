@@ -1,7 +1,9 @@
 ---
 title: Pfenex And Hospira Announce Collaboration To Develop ...
 url: https://www.fiercebiotech.com/biotech/pfenex-and-hospira-announce-collaboration-to-develop-and-commercialize-proposed-lucentis%C2%AE
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hospira" press release artificial intelligence'
 position: 4
 source: serpapi-google
