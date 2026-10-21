@@ -52,6 +52,67 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-medical-imaging-ihe.py
   first_seen: '2026-10-20'
+- partner_name: FDA Drugs@FDA (approved drug and biologic applications)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=078339
+  category: FDA drug / biologic application holder
+  contract_reference:
+    register: Drugs@FDA (openFDA drug/drugsfda; application holder = sponsor_name)
+    standard: FDA drug / biologic marketing application (21 CFR 314 / 601)
+    spec_file: null
+    role: fda-application-holder
+    registered_name: HOSPIRA
+    matched_domain: hospira.com
+    matched_by: domain
+    certified_products:
+    - product: Abbreviated New Drug Application (generic, approved) (Drugs@FDA)
+      product_type: ANDA
+      lapsed: false
+      products_sample:
+      - A-HYDROCORT
+      - A-METHAPRED
+      - ACETAZOLAMIDE SODIUM
+      - ACETYLCYSTEINE
+      - ACYCLOVIR SODIUM
+      - ADENOSINE
+    - product: Biologics License Application (approved) (Drugs@FDA)
+      product_type: BLA
+      lapsed: false
+      products_sample:
+      - NIVESTYM
+      - NYVEPRIA
+      - RETACRIT
+    - product: New Drug Application (approved) (Drugs@FDA)
+      product_type: NDA
+      lapsed: false
+      products_sample:
+      - AMIDATE
+      - AMINESS 5.2% ESSENTIAL AMINO ACIDS W/ HISTADINE
+      - AMINOPHYLLINE IN SODIUM CHLORIDE 0.45% IN PLASTIC CONTAINER
+      - AMINOSYN II 3.5% IN DEXTROSE 25% IN PLASTIC CONTAINER
+      - AMINOSYN II 3.5% IN DEXTROSE 5% IN PLASTIC CONTAINER
+      - AMINOSYN II 3.5% M IN DEXTROSE 5% IN PLASTIC CONTAINER
+    applications_sample:
+    - ANDA040078
+    - ANDA040302
+    - ANDA062420
+    - ANDA062638
+    - ANDA062662
+    signal_note: certified_products = one entry per application TYPE (NDA / ANDA / BLA), never per application;
+      lapsed when every product under the type is Discontinued. Applications are context, never counted
+    detected_by: sweep-clinical-trial-sponsors.py
+    detected: '2026-10-21'
+    identity: wikidata Q1470525 'Hospira' P856 http://www.hospira.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+    other_registrations:
+    - HOSPIRA INC
+  detected_by: sweep-clinical-trial-sponsors.py
+  first_seen: '2026-10-21'
 generated: '2026-10-20'
 method: searched
 source:
@@ -60,3 +121,7 @@ source:
 checked:
 - https://connectathon-results.ihe.net/custom-search/
 - https://product-registry.ihe.net/
+- https://api.fda.gov/drug/drugsfda.json
+- https://clinicaltrials.gov/api/v2/studies
+- https://euclinicaltrials.eu/ctis-public/search
+- https://www.cdisc.org/members/search
